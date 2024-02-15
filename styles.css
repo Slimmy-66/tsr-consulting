@@ -13,21 +13,44 @@ body {
         background-color: ivory;
         display: flex;
         flex-direction: column;
-        flex: 1 1 auto;
+        
+}
+
+h1 {
+        font-size: 48px;
+        font-weight: extra-bold;
+}
+
+h1, h2 {
+        line-height: 1.2;
+        margin-bottom: 24px;
+}
+
+h3 {
+        line-height: 1.1;
+        font-size: 28px;
+        font-weight: bold;
+        margin-bottom: 18px;
+}
+
+h2 {
+        font-size: 36px;
+        text-align: center;
+        font-weight: bold;
+        padding: 16px 0;
 }
 
 .nav-bar {
         background-color: #352247;
         color: bisque;
-        height: 60px;
-        padding: 16px 0;
-        
+        padding: 32px 0;
 }
 
 
 .container {
         max-width: 1200px;
         margin: 0 auto;
+        padding: 64px 32px
 }
 
 .nav-bar .container {
@@ -35,6 +58,8 @@ body {
         justify-content: space-between;
         align-items: center;
         flex-wrap: wrap;
+        padding: 0 32px;
+        gap: 16px;
 }
 
 .nav-bar ul {
@@ -46,7 +71,6 @@ body {
         justify-content: space-between;
         align-items: center;
         gap: 16px;
-        
 }
 
 
@@ -59,13 +83,6 @@ body {
         color: #9d3814;
 }
 
-.nav-bar .container {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-}
-
-
 .logo {
         font-size: 34px;
         font-weight: 800;
@@ -73,8 +90,9 @@ body {
 
 .header {
         background-color: #352247;
-        padding-top: 50px;
+        padding: 64px 0;
 }
+
 
 .header .container {
         display: flex;
@@ -82,60 +100,47 @@ body {
         align-items: center;
         color: bisque;
         gap: 32px; 
-        padding: 100px 0;
+        flex-wrap: wrap;
 }
 
 .hero-text {
-        text-align: justify;
+        max-width: 600px;
+        min-width: 400px;
+       
+}
+
+.header h1 {
+        font-size: 48px;
 }
 
 .header p {
         margin-bottom: 16px;
+        font-size: 18px;
+        text-align: justify;
 }
 
 .header button {
         background-color: #9d3814;
         border: none;
-        padding: 8px 16px;
+        padding: 16px 32px;
         border-radius: 10px;
-        font-size: 16px;
+        font-size: 18px;
+        font-weight: bold;
         color: bisque;
 }
 
 .header img {
-        max-width: 800px;
-        max-height: 400px;
-}
-
-h1, h2 {
-        line-height: 1.2;
-        margin-bottom: 24px;
-}
-
-h3 {
-        margin-bottom: 8px;
-        font-size: 24px;
-        font-weight: bold;
-}
-
-h2 {
-        font-size: 30px;
-        text-align: center;
-        font-weight: bold;
-        padding: 16px 0;
+        max-width: 500px;
+        max-height: 300px;
+        flex: 0 1 auto;
 }
 
 .services {
-        height: 600px;
         display: flex;
         justify-content: center;
         align-items: center;
 }
 
-.services .container {
-        
-        padding: 60px 0;
-}
 
 .vignettes {
         display: flex;
@@ -144,12 +149,15 @@ h2 {
         align-items: flex-start;
         text-align: center;
         gap: 50px;
+        padding: 64px 0;
+        
 }
 
 .info {
         display: flex;
         flex-direction: column;
-        max-width: 250px;
+        max-width: 200px;
+        
         
 }
 
@@ -159,9 +167,10 @@ h2 {
         margin-bottom: 16px;
 }
 
+
+
 .citation {
         background-color: #9c70c5a0;
-        height: 400px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -173,15 +182,16 @@ h2 {
         align-items: center;
         justify-content: center;
 }
+
 .citation .container {
-        
+        padding: 64px 80px;
         max-width: 1000px;
         flex: 0 1 auto;
-        padding: 0 32px;
+        
 }
 
 blockquote {
-        font-size: 24px;
+        font-size: 36px;
         font-style: italic;
         font-weight: lighter; 
         margin-bottom: 16px;
@@ -189,7 +199,7 @@ blockquote {
 
 .signature {
         text-align: right;
-        font-size: 18px;
+        font-size: 24px;
         font-weight: 600;
 }
 
@@ -202,11 +212,11 @@ blockquote {
 
 .call2action .container {
         display: flex;
-        width: 1200px;
         background-color: #9d3814;
         padding: 64px 120px;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: center;
+        gap: 32px;
         color: bisque;
         flex-wrap: wrap;
 }
@@ -214,14 +224,20 @@ blockquote {
 .call2action .message {
         max-width: 600px;
         flex-wrap: wrap;
-        flex: 1;
+        
+}
+
+.message h2 {
+        text-align: left;
+        margin: 0;
 }
 
 .sign-in {
         border: 2px solid bisque;
-        padding: 8px 16px;
+        padding: 16px 32px;
         border-radius: 10px;
-        font-size: 16px;
+        font-size: 18px;
+        font-weight: bold;
         background-color: #9d3814;
         color: bisque;
 }
@@ -239,7 +255,8 @@ blockquote {
 }
 
 .footer .container {
-        margin: 32px 0;
+        padding: 32px 0;
+        
 }
 
 
