@@ -2,7 +2,6 @@
         margin: 0;
         padding: 0;
         box-sizing: border-box;
-        
 }
 
 body {
@@ -13,7 +12,6 @@ body {
         background-color: ivory;
         display: flex;
         flex-direction: column;
-        
 }
 
 h1 {
@@ -71,6 +69,7 @@ h2 {
         justify-content: space-between;
         align-items: center;
         gap: 16px;
+        flex: 0 0 auto;
 }
 
 
@@ -86,11 +85,16 @@ h2 {
 .logo {
         font-size: 34px;
         font-weight: 800;
+        font-style: italic;
+        flex: 2 0 auto;
 }
 
 .header {
         background-color: #352247;
         padding: 64px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
 }
 
 
@@ -101,12 +105,13 @@ h2 {
         color: bisque;
         gap: 32px; 
         flex-wrap: wrap;
+        flex: 1;
 }
 
 .hero-text {
         max-width: 600px;
         min-width: 400px;
-       
+        flex: 2;
 }
 
 .header h1 {
@@ -132,7 +137,7 @@ h2 {
 .header img {
         max-width: 500px;
         max-height: 300px;
-        flex: 0 1 auto;
+        flex: 1 1 auto;
 }
 
 .services {
@@ -150,15 +155,14 @@ h2 {
         text-align: center;
         gap: 50px;
         padding: 64px 0;
-        
+        flex: 1;
 }
 
 .info {
         display: flex;
         flex-direction: column;
         max-width: 200px;
-        
-        
+        flex: 1 1 auto;
 }
 
 .info img {
@@ -187,7 +191,7 @@ h2 {
         padding: 64px 80px;
         max-width: 1000px;
         flex: 0 1 auto;
-        
+        margin: 32px 0;
 }
 
 blockquote {
@@ -204,7 +208,7 @@ blockquote {
 }
 
 .call2action {
-        height: 400px;
+        padding: 64px 32px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -224,7 +228,6 @@ blockquote {
 .call2action .message {
         max-width: 600px;
         flex-wrap: wrap;
-        
 }
 
 .message h2 {
@@ -250,14 +253,8 @@ blockquote {
         justify-content: center;
         align-items: center;
         font-size: 18px;
-        
-        
 }
 
 .footer .container {
         padding: 32px 0;
-        
 }
-
-
-
