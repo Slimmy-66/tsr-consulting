@@ -21,3 +21,5 @@ L'exercice a été adapté pour répondre à mes besoins futurs et expérimenter
 
 
 ## Copyrights
+
+- Garland of Fruit and Flowers. Creator: Jan Davidsz de Heem. Date: 1660 - 1650. Institution: Mauritshuis. Provider: Digitale Collectie. Providing Country: Netherlands. PD for Public Domain Mark
