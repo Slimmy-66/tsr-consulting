@@ -124,7 +124,7 @@ h2 {
         text-align: justify;
 }
 
-.header button {
+#contact input {
         background-color: #9d3814;
         border: none;
         padding: 16px 32px;
@@ -212,7 +212,6 @@ blockquote {
         display: flex;
         justify-content: center;
         align-items: center;
-        
 }
 
 .call2action .container {
@@ -237,7 +236,7 @@ blockquote {
         margin: 0;
 }
 
-.sign-in {
+#sign-in input {
         border: 2px solid bisque;
         padding: 16px 32px;
         border-radius: 10px;
