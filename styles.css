@@ -212,6 +212,7 @@ blockquote {
         display: flex;
         justify-content: center;
         align-items: center;
+        
 }
 
 .call2action .container {
@@ -223,6 +224,7 @@ blockquote {
         gap: 32px;
         color: bisque;
         flex-wrap: wrap;
+        border-radius: 20px;
 }
 
 .call2action .message {
