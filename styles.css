@@ -12,6 +12,7 @@ body {
         background-color: ivory;
         display: flex;
         flex-direction: column;
+     
 }
 
 h1 {
@@ -43,6 +44,7 @@ h2 {
         color: bisque;
         padding: 32px 0;
         flex: 1;
+      
 }
 
 
@@ -50,6 +52,7 @@ h2 {
         max-width: 1200px;
         margin: 0 auto;
         padding: 64px 32px
+
 }
 
 .nav-bar .container {
@@ -258,6 +261,7 @@ blockquote {
         justify-content: center;
         align-items: center;
         font-size: 18px;
+        flex: 1 1 auto;
 }
 
 .footer .p {
